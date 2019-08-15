@@ -1,5 +1,10 @@
-<h1>タスク一覧</h1>
 
+  <div class="text-right">
+    <%= link_to 'Sign up now', signup_path, class: 'btn btn-lg btn-info' %>
+  </div>
+
+
+<h1>タスク一覧</h1>
 <% if @tasks.any? %>
   <table class="table table-striped">
     <thead>
